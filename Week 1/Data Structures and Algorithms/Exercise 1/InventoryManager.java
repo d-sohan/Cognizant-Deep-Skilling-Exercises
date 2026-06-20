@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 class Product {
     private String productId;
     private String productName;
@@ -11,7 +10,7 @@ class Product {
         this.productId = productId;
         this.productName = productName;
         this.quantity = quantity;
-        this.price = price;
+        this.price=price;
     }
 
     // Getters and Setters

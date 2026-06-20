@@ -58,7 +58,7 @@ public class StrategyPatternExample {
         context.setPaymentStrategy(creditCardPayment);
         context.pay(150.0);
 
-        // Paying with PayPal
+        // Paying with PayPalj
         PaymentStrategy payPalPayment = new PayPalPayment("sohan@gmail.com", "password");
         context.setPaymentStrategy(payPalPayment);
         context.pay(75.0);
